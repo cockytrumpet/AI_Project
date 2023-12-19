@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 #         { 0: '0', 1: '10k', 2: '100k', 3: '200k', 4: '500k', 5: '1m' }
 # y-axis: mean reward
 
-
+# these came from the output of train.py
 # it was faster to just type these out than to write a script to generate them
 a2c_cnn = [9.6, 1.1, 25.8, 30.6, 46.0, 65.1]
 a2c_mlp = [4.7, 1.1, 1.2, 1.1, 1.2, 1.2]

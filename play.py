@@ -11,7 +11,6 @@ else:
     print("model not found")
     exit()
 
-# env = make_atari_env("ALE/Berzerk-v5", n_envs=3, env_kwargs=dict(mode=1), seed=0)
 env = make_atari_env(
     "ALE/Frogger-v5", n_envs=4, env_kwargs=dict(render_mode="rgb_array")
 )
